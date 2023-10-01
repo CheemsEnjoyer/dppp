@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: aliceblue;
+}
+main {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.destination_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.destination_card {
+    border: 5px groove #e1ec17;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    max-width: 250px;
+    font-size: large;
+    margin: 25px;
+    box-shadow: 0 0 20px aquamarine;
+}
+.photo {
+    width: 250px;
+    height: 150px;
+    border-radius: 40%;
+}
